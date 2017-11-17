@@ -15,10 +15,24 @@ $_REQUEST           既能得到get传值结果，也能得到post传值的结�
     <title>用户表格</title>
 </head>
 <body>
+<!--
     <form action = "reg.php" method ="request">
         <input type="text" name="username"/>
         <input type="password" name="pwd"/>
         <input type="submit" value = "提交" />
+    </form>
+    -->
+    <form action="reg.php" method="get">
+        <input type="text" name="num1"/>
+        <select name="fh">
+            <option value="jia">+</option>
+            <option value="jian">-</option>
+            <option value="cheng">x</option>
+            <option value="chu">/</option>
+            <option value="qy">%</option>
+        </select>
+        <input type="text" name="num2"/>
+        <input type="submit" value="运算"/>
     </form>
 </body>
 </html>
