@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="85360886-3f3a-47b6-aadb-9aa6e23ac7a4" name="Apache" url="http://www.testphp.com">
+        <fileTransfer port="0" mountedRoot="D:\myphp_www\PHPTutorial\Apache" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

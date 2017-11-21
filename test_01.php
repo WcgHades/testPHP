@@ -12,10 +12,18 @@ define("MY_NAME",3.14159216);
 //echo '我的密码:'.MY_NAME;
 
 //===============================
+$a = 100;
 
-$a = 5;
-$b = $a++;
-echo $b.'<br />';
+function test(){
+     $b = $GLOBALS['a'] = 200;
+
+    echo $b;
+}
+test();
 
 echo $a;
+
+function ceshi(){
+
+}
 
