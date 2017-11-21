@@ -53,11 +53,12 @@ foreach($arr as $a => $b){
 
 }
 
-foreach($arr as $a => $b){
-    echo '-----'.$a.'-----'.'<br />';
-    foreach ($b as $c){
-        foreach ($c as $k => $y){
-            echo $y.',';
+foreach($arr as $a => $b) {
+    echo '-----' . $a . '-----' . '<br />';
+    foreach ($b as $c) {
+        foreach ($c as $k => $y) {
+            echo $y . ',';
         }
         echo '<br />';
     }
+}
