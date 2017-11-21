@@ -42,7 +42,7 @@ $arr=array(
         array('张某','21','妖人'),
     ),
 );
-
+/*
 foreach($arr as $a => $b){
     echo '-----'.$a.'-----'.'<br />';
     foreach ($b as $c ){
@@ -52,7 +52,7 @@ foreach($arr as $a => $b){
     }
 
 }
-
+*/
 foreach($arr as $a => $b) {
     echo '-----' . $a . '-----' . '<br />';
     foreach ($b as $c) {
@@ -62,3 +62,20 @@ foreach($arr as $a => $b) {
         echo '<br />';
     }
 }
+
+list($a,$b,$c,$d,$f) = array(20,30,'nihao',4 => 'nur');
+
+echo '--a--'.$a,'<br />';
+echo '--b--'.$b,'<br />';
+echo '--c--'.$c,'<br />';
+echo '--d--'.$d,'<br />';
+echo '--f--'.$f,'<br />';
+
+while(list($key,$myarr) = each($arr)){
+    echo '部门'.$key.'<br />';
+    while (list($key1,$mayrr1) = each($mayrr)){
+        echo  'key1'.$key1.
+    }
+}
+
+
